@@ -18,7 +18,7 @@ h2.link-card {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 80%;
     height: 100vh;
-    background-color: white;
+    background-color:cornsilk;
 }
 .logo {
     width: 100px;
@@ -52,9 +52,10 @@ align-items: center;
     display: block;
     width: 200px;
     height: 40px;
-    background-color:deepskyblue;
+    background-color:rgb(164, 215, 233);
     border-radius: 10px;
     text-align: center;
+    padding-top: 0.3em;
 }
 .links a:hover {
     background-color: #6666ff;
@@ -62,6 +63,7 @@ align-items: center;
 @media (max-width: 600px) {
     .container {
         width: 90%;
+        height: 90vh;
     }
     .logo {
         width: 80px;
@@ -75,6 +77,14 @@ align-items: center;
         width: 150px;
         height: 30px;
         font-size: 12px;
+        
+    }
+    .p{
+        text-align: center;
+    }
+    main{
+        padding-bottom: 0.5em;
     }
 
 }
+
